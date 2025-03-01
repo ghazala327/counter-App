@@ -1,0 +1,29 @@
+body{
+	background-image: url(counter.jpeg);
+	height: 100vh;
+	text-align: center;
+	background-size: cover;
+}
+.container{
+	background: rgba(255, 255, 255, 0.5);
+	border:2px solid black;
+	border-radius:15px;
+	margin:auto;
+}
+h1,h2,p{
+	margin: 10px 0;
+	font-weight: bolder;
+}
+button{
+	box-shadow: 5px 5px  5px rgba(0, 0, 0, 0.7);
+	margin-bottom: 20px;
+	width: 150px;
+	border-radius: 10px;
+	padding: 2px 0;
+}
+#increment-btn{
+	background-color: lightcoral;
+}
+#save-btn{
+	background-color: lightsteelblue;
+}
